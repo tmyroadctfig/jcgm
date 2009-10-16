@@ -7,13 +7,13 @@
 <project name="jcgm" default="jar">
 	
 	<!-- The core package -->
-	<property name="version-core" value="0.1"/>
+	<property name="version-core" value="0.1.0"/>
 	<property name="package-name-core" value="jcgm-core-${version-core}"/>
 	<property name="jar-name-core" value="${package-name-core}.jar"/>
 	<property name="package-name-core-bin" value="${package-name-core}-bin"/>
 
 	<!-- The image package -->
-	<property name="version-image" value="0.1"/>
+	<property name="version-image" value="0.1.0"/>
 	<property name="package-name-image" value="jcgm-image-${version-image}"/>
 	<property name="jar-name-image" value="${package-name-image}.jar"/>
 	<property name="package-name-image-bin" value="${package-name-image}-bin"/>
@@ -83,9 +83,9 @@
     	</zip>
     </target>
 
-	<target name="dist-core-bin" depends="jar, site">
+	<target name="dist-core-bin" depends="jar-core"> <!-- depends: site -->
     	<zip destfile="${package-name-core-bin}.zip">
-			<zipfileset dir="build/site" prefix="${package-name-core-bin}/build/site"/>
+			<!-- <zipfileset dir="build/site" prefix="${package-name-core-bin}/build/site"/> -->
 			<zipfileset file="build/${jar-name-core}" prefix="${package-name-core-bin}/build"/>
 			<zipfileset file="LICENSE-core.txt" prefix="${package-name-core-bin}"/>
 			<zipfileset file="README.txt" prefix="${package-name-core-bin}"/>
@@ -93,9 +93,9 @@
 		</zip>
 	</target>
 	
-	<target name="dist-image-bin" depends="jar, site">
+	<target name="dist-image-bin" depends="jar-image"> <!-- depends: site -->
     	<zip destfile="${package-name-image-bin}.zip">
-			<zipfileset dir="build/site" prefix="${package-name-image-bin}/build/site"/>
+			<!-- <zipfileset dir="build/site" prefix="${package-name-image-bin}/build/site"/> -->
 			<zipfileset file="build/${jar-name-image}" prefix="${package-name-image-bin}/build"/>
 			<zipfileset file="LICENSE-image.txt" prefix="${package-name-image-bin}"/>
 			<zipfileset file="README.txt" prefix="${package-name-image-bin}"/>
@@ -106,6 +106,7 @@
 	<target name="distclean" depends="clean">
 		<delete file="${package-name-src}.zip"/>
 		<delete file="${package-name-core-bin}.zip"/>
+		<delete file="${package-name-image-bin}.zip"/>
 	</target>
 
 	<!-- Web site -->
