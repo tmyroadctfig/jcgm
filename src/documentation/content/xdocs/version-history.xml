@@ -9,8 +9,8 @@
 		<title>
 			Core Package
 		</title>
-    <section id="core-0.1">
-      <title>Version 0.1</title>
+    <section id="core-0.1.0">
+      <title>Version 0.1.0</title>
       <p>
 		  Initial version.
       </p>
@@ -20,8 +20,8 @@
 		<title>
 			Image Package
 		</title>
-    <section id="image-0.1">
-      <title>Version 0.1</title>
+    <section id="image-0.1.0">
+      <title>Version 0.1.0</title>
       <p>
 		  Initial version.
       </p>

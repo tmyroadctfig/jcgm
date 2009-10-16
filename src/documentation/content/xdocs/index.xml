@@ -12,6 +12,20 @@
       <p>jcgm is an open source Java implementation to interpret
       and render Computer Graphics Metafile (CGM) graphics
       files.</p>
+  <p>
+	  If is distributed as two packages, a <strong>core</strong> package
+	  release under the <a href="http://cougaar.org/twiki/bin/view/Main/LicenseText">Cougaar Open Source License</a> and an
+	  <strong>image</strong> package released under a BSD license.
+  </p>
+  <p>
+	  The <strong>core</strong> package provides the basic interpretation and rendering
+	  functionality and the <strong>image</strong> package implements an
+	  <a href="http://java.sun.com/javase/6/docs/technotes/guides/imageio/">ImageIO</a>
+  plugin for reading CGM files and an <a
+	  href="http://xmlgraphics.apache.org/">XML Graphics</a> loader for
+  displaying CGM graphics in a PDF file by using <a
+	  href="http://xmlgraphics.apache.org/fop/">FOP</a>.
+  </p>
     </section>
   </body>
 </document>

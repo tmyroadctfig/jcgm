@@ -13,8 +13,8 @@
 		<section id="source">
 			<title>Source Code</title>
 			<p>
-				Go to <a
-					href="https://sourceforge.net/scm/?type=svn&group_id=283070">the
+				Go to the <a
+					href="http://jcgm.svn.sourceforge.net/viewvc/jcgm/">
 					Sourceforge Project Page</a> to download the source code.
 			</p>
 		</section>
@@ -30,7 +30,7 @@
 					functionality of interpreting and rendering CGM graphics.
 				</p>
 				<p>
-					<a href="http://">jcgm-core-0.1.0zip</a>
+					<a href="https://sourceforge.net/projects/jcgm/files/jcgm-core-0.1.0-bin.zip/download">jcgm-core-0.1.0-bin.zip</a>
 				</p>
 				<p>
 					The core package has no dependencies.
@@ -45,7 +45,7 @@
 						graphics in a PDF file by using <a href="http://xmlgraphics.apache.org/fop/">FOP</a>.
 				</p>
 				<p>
-					<a href="http://">jcgm-image-0.1-0.zip</a>
+					<a href="https://sourceforge.net/projects/jcgm/files/jcgm-image-0.1.0-bin.zip/download">jcgm-image-0.1-0-bin.zip</a>
 				</p>
 				<p>
 					The image package depends on
