@@ -33,7 +33,7 @@ import java.io.*;
  * Class=4, Element=4
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: Text.java,v 1.7 2009-05-29 11:04:13 xphc Exp $
+ * @version $Id$
  */
 class Text extends Command {
     private Point2D.Double position;

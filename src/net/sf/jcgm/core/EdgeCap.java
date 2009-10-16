@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=44
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EdgeCap.java,v 1.2 2009-05-13 14:35:00 xphc Exp $
+ * @version $Id$
  */
 class EdgeCap extends CapCommand {
 	public EdgeCap(int ec, int eid, int l, DataInput in)

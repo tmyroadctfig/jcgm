@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * Class=3, Element=6
  * @author xphc (Philippe Cadé)
- * @version $Id: ClipIndicator.java,v 1.1 2009-06-12 07:29:53 xphc Exp $
+ * @version $Id$
  * @since Jun 12, 2009
  */
 class ClipIndicator extends Command {

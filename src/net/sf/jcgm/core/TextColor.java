@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=14
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: TextColor.java,v 1.1 2009-03-17 13:07:45 xphc Exp $
+ * @version $Id$
  */
 class TextColor extends ColorCommand {
 	public TextColor(int ec, int eid, int l, DataInput in)

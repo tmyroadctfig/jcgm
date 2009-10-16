@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * Class=5, Element=24
  * @author xphc (Philippe Cadé)
- * @version $Id: HatchIndex.java,v 1.1 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  * @since Jun 10, 2009
  */
 class HatchIndex extends Command {

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=2, Element=5
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EdgeWidthSpecificationMode.java,v 1.2 2009-05-13 14:47:53 xphc Exp $
+ * @version $Id$
  */
 class EdgeWidthSpecificationMode extends Command {
     static private SpecificationMode mode;

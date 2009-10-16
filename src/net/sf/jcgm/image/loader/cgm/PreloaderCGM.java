@@ -54,7 +54,7 @@ import org.apache.xmlgraphics.image.loader.util.ImageUtil;
  * with the XML graphics library.
  * 
  * @author xphc (Philippe Cadé)
- * @version $Id: PreloaderCGM.java,v 1.1 2009-04-14 14:34:16 xphc Exp $
+ * @version $Id$
  * @since Apr 14, 2009
  * @see ImageLoaderCGM
  * @see <a href="http://xmlgraphics.apache.org/">xmlgraphics.apache.org</a>

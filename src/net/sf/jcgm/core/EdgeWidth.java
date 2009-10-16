@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=28
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EdgeWidth.java,v 1.3 2009-05-13 14:47:55 xphc Exp $
+ * @version $Id$
  */
 class EdgeWidth extends Command {
     double width;

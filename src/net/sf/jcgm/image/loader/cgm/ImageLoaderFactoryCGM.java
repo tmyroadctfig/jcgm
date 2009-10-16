@@ -36,7 +36,7 @@ import org.apache.xmlgraphics.image.loader.spi.ImageLoader;
 /**
  * Factory class for the ImageLoader for CGM.
  * @author xphc (Philippe Cadé)
- * @version $Id: ImageLoaderFactoryCGM.java,v 1.1 2009-04-14 14:34:16 xphc Exp $
+ * @version $Id$
  * @since Apr 14, 2009
  * @see ImageLoaderCGM
  * @see <a href="http://xmlgraphics.apache.org/">xmlgraphics.apache.org</a>

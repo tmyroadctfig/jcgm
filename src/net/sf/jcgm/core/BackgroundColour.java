@@ -31,7 +31,7 @@ import java.io.*;
  * Class=2, Element=7
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: BackgroundColour.java,v 1.3 2009-05-13 14:54:32 xphc Exp $
+ * @version $Id$
  */
 class BackgroundColour extends Command {
     private Color backgroundColor;

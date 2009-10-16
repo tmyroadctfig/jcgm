@@ -28,7 +28,7 @@ import java.io.*;
  * Class=0, Element=3
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: BeginPicture.java,v 1.1 2009-03-17 13:07:44 xphc Exp $
+ * @version $Id$
  */
 class BeginPicture extends Command {
     String S;

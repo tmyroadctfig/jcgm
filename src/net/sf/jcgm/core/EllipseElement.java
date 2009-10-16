@@ -35,7 +35,7 @@ import java.io.*;
  * Class=4, Element=17
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EllipseElement.java,v 1.5 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  */
 class EllipseElement extends Command {
 	protected Point2D.Double center;

@@ -32,7 +32,7 @@ import java.io.*;
  * Class=4, Element=12
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CircleElement.java,v 1.6 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  */
 class CircleElement extends Command {
 	private Point2D.Double center;

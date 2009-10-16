@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=3
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: LineWidth.java,v 1.3 2009-05-12 15:13:56 xphc Exp $
+ * @version $Id$
  */
 class LineWidth extends Command {
     double width;

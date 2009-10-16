@@ -24,7 +24,7 @@ package net.sf.jcgm.core;
 /**
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: SpecificationMode.java,v 1.1 2009-03-17 13:07:58 xphc Exp $
+ * @version $Id$
  */
 enum SpecificationMode {
 	SCALED,		// type: R

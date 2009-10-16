@@ -29,7 +29,7 @@ import java.io.*;
  * Class=1, Element=17
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MaximumVDCExtent.java,v 1.2 2009-05-12 12:49:26 xphc Exp $
+ * @version $Id$
  */
 class MaximumVDCExtent extends Command {
     Point2D.Double firstCorner;

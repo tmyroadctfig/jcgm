@@ -29,7 +29,7 @@ import java.io.*;
  * Class=5, Element=13
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CharacterSpacing.java,v 1.1 2009-03-17 13:07:34 xphc Exp $
+ * @version $Id$
  */
 class CharacterSpacing extends Command {
     private double additionalInterCharacterSpace;

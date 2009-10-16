@@ -23,7 +23,7 @@ package net.sf.jcgm.core;
 
 /**
  * @author xphc (Philippe Cadé)
- * @version $Id: DashType.java,v 1.2 2009-05-12 15:13:56 xphc Exp $
+ * @version $Id$
  * @since Feb 23, 2009
  */
 class DashType {

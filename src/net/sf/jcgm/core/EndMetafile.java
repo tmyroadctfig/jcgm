@@ -28,7 +28,7 @@ import java.io.*;
  * Class=0, Element=2
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EndMetafile.java,v 1.2 2009-05-18 15:12:43 xphc Exp $
+ * @version $Id$
  */
 class EndMetafile extends Command {
     public EndMetafile(int ec, int eid, int l, DataInput in)

@@ -36,7 +36,7 @@ import net.sf.jcgm.core.MarkerType.Type;
 /**
  * Class=4, Element=3
  * @author xphc (Philippe Cadé)
- * @version $Id: PolyMarker.java,v 1.1 2009-05-14 07:46:48 xphc Exp $
+ * @version $Id$
  * @since May 13, 2009
  */
 class PolyMarker extends Command {

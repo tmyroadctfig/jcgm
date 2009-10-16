@@ -42,7 +42,7 @@ import net.sf.jcgm.core.TextAlignment.VerticalAlignment;
  * Class=4, Element=5
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: RestrictedText.java,v 1.7 2009-05-29 11:04:13 xphc Exp $
+ * @version $Id$
  */
 class RestrictedText extends Command {
     private String string;

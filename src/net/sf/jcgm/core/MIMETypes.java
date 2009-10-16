@@ -24,7 +24,7 @@ package net.sf.jcgm.core;
 /**
  * MIME Types that are supported for CGM graphics.
  * @author xphc (Philippe Cadé)
- * @version $Id: MIMETypes.java,v 1.1 2009-04-14 14:34:16 xphc Exp $
+ * @version $Id$
  * @since Apr 14, 2009
  */
 public class MIMETypes {

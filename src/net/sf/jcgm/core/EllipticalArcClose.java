@@ -30,7 +30,7 @@ import java.io.*;
  * Class=2, Element=7
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EllipticalArcClose.java,v 1.4 2009-06-11 07:28:07 xphc Exp $
+ * @version $Id$
  */
 class EllipticalArcClose extends EllipticalArc {
 	private int type;

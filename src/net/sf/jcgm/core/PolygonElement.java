@@ -33,7 +33,7 @@ import java.io.*;
  * Class=4, Element=7
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: PolygonElement.java,v 1.6 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  */
 class PolygonElement extends Command {
 	private Path2D.Double polygon;

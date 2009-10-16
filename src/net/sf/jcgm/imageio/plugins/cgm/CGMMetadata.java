@@ -40,7 +40,7 @@ import org.w3c.dom.Node;
  * FIXME: This class is not really implemented, most is just a placeholder.
  * 
  * @author xphc (Philippe Cadé)
- * @version $Id: CGMMetadata.java,v 1.1 2009-03-17 14:20:23 xphc Exp $
+ * @version $Id$
  * @since Mar 17, 2009
  */
 class CGMMetadata extends IIOMetadata {

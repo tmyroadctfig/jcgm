@@ -31,7 +31,7 @@ import java.io.*;
  * Class=4, Element=11
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: RectangleElement.java,v 1.6 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  */
 class RectangleElement extends Command {
 	private Rectangle2D.Double shape;

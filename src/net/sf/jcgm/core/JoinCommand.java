@@ -27,7 +27,7 @@ import java.io.IOException;
 
 /**
  * @author xphc (Philippe Cadé)
- * @version $Id: JoinCommand.java,v 1.1 2009-05-13 14:35:02 xphc Exp $
+ * @version $Id$
  * @since May 13, 2009
  */
 class JoinCommand extends Command {

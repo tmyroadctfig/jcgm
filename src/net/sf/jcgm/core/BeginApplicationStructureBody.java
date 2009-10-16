@@ -28,7 +28,7 @@ import java.io.*;
  * Class=0, Element=22
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: BeginApplicationStructureBody.java,v 1.1 2009-03-17 13:07:42 xphc Exp $
+ * @version $Id$
  */
 class BeginApplicationStructureBody extends Command {
     public BeginApplicationStructureBody(int ec, int eid, int l, DataInput in)

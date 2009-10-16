@@ -31,7 +31,7 @@ import java.io.*;
  * Class=5, Element=34
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ColourTable.java,v 1.2 2009-05-12 14:08:35 xphc Exp $
+ * @version $Id$
  */
 class ColourTable extends Command {
     private int startIndex;

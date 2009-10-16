@@ -36,7 +36,7 @@ import java.io.IOException;
  * Class=4, Element=9
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CellArray.java,v 1.6 2009-06-30 13:45:22 xphc Exp $
+ * @version $Id$
  */
 class CellArray extends Command {
     private int representationFlag;

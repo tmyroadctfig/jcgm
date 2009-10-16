@@ -49,7 +49,7 @@ import net.sf.jcgm.core.TextAlignment.VerticalAlignment;
  * 
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CGMDisplay.java,v 1.13 2009-06-12 07:29:53 xphc Exp $
+ * @version $Id$
  */
 public class CGMDisplay {
     private Graphics2D g2d;

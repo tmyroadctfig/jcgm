@@ -29,7 +29,7 @@ import java.io.*;
  * Class=5, Element=16
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CharacterOrientation.java,v 1.2 2009-05-08 11:33:54 xphc Exp $
+ * @version $Id$
  */
 class CharacterOrientation extends Command {
     private double xUp;

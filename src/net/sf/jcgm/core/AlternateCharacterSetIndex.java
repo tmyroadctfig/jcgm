@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * Element=5, Element=20
  * @author xphc (Philippe Cadé)
- * @version $Id: AlternateCharacterSetIndex.java,v 1.1 2009-06-12 09:19:08 xphc Exp $
+ * @version $Id$
  * @since Jun 12, 2009
  */
 class AlternateCharacterSetIndex extends Command {

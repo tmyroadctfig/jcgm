@@ -29,7 +29,7 @@ import java.io.Serializable;
  * <p>
  * @author: carback1
  * 
- * @version $Id: CMYKColorSpace.java,v 1.1 2009-03-17 13:07:42 xphc Exp $ 
+ * @version $Id$ 
  * @date 18/11/09
  * @see java.awt.color.ColorSpace, java.awt.color.ICC_ColorSpace
  */

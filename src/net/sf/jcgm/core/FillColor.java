@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=23
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: FillColor.java,v 1.1 2009-03-17 13:07:35 xphc Exp $
+ * @version $Id$
  */
 class FillColor extends ColorCommand {
 	public FillColor(int ec, int eid, int l, DataInput in)

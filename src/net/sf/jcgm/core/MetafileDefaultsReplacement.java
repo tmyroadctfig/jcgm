@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=12
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MetafileDefaultsReplacement.java,v 1.2 2009-06-18 07:14:30 xphc Exp $
+ * @version $Id$
  */
 class MetafileDefaultsReplacement extends Command {
 	private Command embeddedCommand;

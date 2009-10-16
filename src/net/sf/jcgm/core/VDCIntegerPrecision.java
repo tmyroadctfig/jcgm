@@ -28,7 +28,7 @@ import java.io.*;
  * Class=3, Element=1
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: VDCIntegerPrecision.java,v 1.1 2009-03-17 13:07:47 xphc Exp $
+ * @version $Id$
  */
 class VDCIntegerPrecision extends Command {
 	private static int precision;

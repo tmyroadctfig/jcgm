@@ -26,7 +26,7 @@ import java.io.IOException;
 
 /**
  * @author xphc (Philippe Cadé)
- * @version $Id: DashTypeCommand.java,v 1.2 2009-05-12 15:13:56 xphc Exp $
+ * @version $Id$
  * @since Feb 23, 2009
  */
 class DashTypeCommand extends Command {

@@ -27,7 +27,7 @@ import java.io.*;
 /**
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ColorCommand.java,v 1.1 2009-03-17 13:07:46 xphc Exp $
+ * @version $Id$
  */
 class ColorCommand extends Command {
     protected Color color = null;

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=38
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: LineJoin.java,v 1.2 2009-05-13 14:35:01 xphc Exp $
+ * @version $Id$
  */
 class LineJoin extends JoinCommand {
     public LineJoin(int ec, int eid, int l, DataInput in)

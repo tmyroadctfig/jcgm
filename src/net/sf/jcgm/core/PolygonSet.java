@@ -32,7 +32,7 @@ import java.io.IOException;
  * Class=4, Element=8
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: PolygonSet.java,v 1.7 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  */
 class PolygonSet extends Command {
 	final private static int INVISIBLE = 0;

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=17
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: TextPath.java,v 1.2 2009-05-18 15:17:12 xphc Exp $
+ * @version $Id$
  */
 class TextPath extends Command {
 	enum Type { RIGHT, LEFT, UP, DOWN }

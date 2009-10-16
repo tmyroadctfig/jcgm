@@ -33,7 +33,7 @@ import java.io.*;
  * Class=2, Element=7
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EllipticalArc.java,v 1.3 2009-05-12 15:13:56 xphc Exp $
+ * @version $Id$
  */
 class EllipticalArc extends EllipseElement {
 	

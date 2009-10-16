@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * Class=6, Element=1
  * @author xphc (Philippe Cadé)
- * @version $Id: Escape.java,v 1.1 2009-06-12 07:29:53 xphc Exp $
+ * @version $Id$
  * @since Jun 12, 2009
  */
 class Escape extends Command {

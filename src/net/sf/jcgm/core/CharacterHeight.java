@@ -29,7 +29,7 @@ import java.io.*;
  * Class=5, Element=15
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CharacterHeight.java,v 1.2 2009-05-08 11:33:54 xphc Exp $
+ * @version $Id$
  */
 class CharacterHeight extends Command {
     double characterHeight;

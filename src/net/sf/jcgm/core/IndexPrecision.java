@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=6
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: IndexPrecision.java,v 1.1 2009-03-17 13:07:36 xphc Exp $
+ * @version $Id$
  */
 class IndexPrecision extends Command {
     static int precision;

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=1
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MetafileVersion.java,v 1.1 2009-03-17 13:07:53 xphc Exp $
+ * @version $Id$
  */
 class MetafileVersion extends Command {
     int X;

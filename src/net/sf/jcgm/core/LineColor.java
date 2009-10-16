@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=4
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: LineColor.java,v 1.1 2009-03-17 13:07:36 xphc Exp $
+ * @version $Id$
  */
 class LineColor extends ColorCommand {
 	public LineColor(int ec, int eid, int l, DataInput in)

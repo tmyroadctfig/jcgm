@@ -28,7 +28,7 @@ import java.io.*;
  * Class=2, Element=1
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ScalingMode.java,v 1.1 2009-03-17 13:07:42 xphc Exp $
+ * @version $Id$
  */
 class ScalingMode extends Command {
 	enum Mode {

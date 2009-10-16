@@ -32,7 +32,7 @@ import java.io.*;
  * Class=4, Element=15
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CircularArcCentre.java,v 1.4 2009-05-12 15:13:56 xphc Exp $
+ * @version $Id$
  */
 class CircularArcCentre extends Command {
     protected Point2D.Double center;

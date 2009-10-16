@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=45
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EdgeJoin.java,v 1.2 2009-05-13 14:35:02 xphc Exp $
+ * @version $Id$
  */
 class EdgeJoin extends JoinCommand {
 	

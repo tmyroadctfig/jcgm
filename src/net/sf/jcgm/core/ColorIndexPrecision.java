@@ -27,7 +27,7 @@ import java.io.*;
  * Class=1, Element=8
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ColorIndexPrecision.java,v 1.1 2009-03-17 13:07:57 xphc Exp $
+ * @version $Id$
  */
 class ColorIndexPrecision extends Command {
     static int precision;

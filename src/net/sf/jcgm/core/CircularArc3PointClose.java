@@ -30,7 +30,7 @@ import java.io.*;
  * Class=4, Element=14
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CircularArc3PointClose.java,v 1.5 2009-06-11 07:28:06 xphc Exp $
+ * @version $Id$
  */
 class CircularArc3PointClose extends CircularArc3Point {
 	private int type;

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=18
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: TextAlignment.java,v 1.2 2009-05-18 15:17:12 xphc Exp $
+ * @version $Id$
  */
 class TextAlignment extends Command {
 	enum HorizontalAlignment { NORMAL_HORIZONTAL, LEFT, CENTRE, RIGHT, CONTINOUS_HORIZONTAL }

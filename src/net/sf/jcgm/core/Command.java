@@ -43,7 +43,7 @@ import net.sf.jcgm.core.VDCRealPrecision.Type;
  * 
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: Command.java,v 1.15 2009-08-28 13:30:30 xphc Exp $
+ * @version $Id$
  */
 class Command implements Cloneable {
 	// Element classes

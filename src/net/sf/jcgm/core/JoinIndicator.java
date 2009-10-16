@@ -25,7 +25,7 @@ import java.awt.BasicStroke;
 
 /**
  * @author xphc (Philippe Cadé)
- * @version $Id: JoinIndicator.java,v 1.2 2009-05-13 14:35:01 xphc Exp $
+ * @version $Id$
  */
 enum JoinIndicator {
 	UNSPECIFIED(BasicStroke.JOIN_MITER),

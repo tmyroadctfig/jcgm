@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=3
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: VDCType.java,v 1.2 2009-05-06 11:18:39 xphc Exp $
+ * @version $Id$
  */
 class VDCType extends Command {
 	enum Type {

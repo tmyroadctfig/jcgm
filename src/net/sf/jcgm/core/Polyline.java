@@ -30,7 +30,7 @@ import java.io.*;
  * Class=4, Element=1
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: Polyline.java,v 1.5 2009-05-14 07:46:48 xphc Exp $
+ * @version $Id$
  */
 class Polyline extends Command {
 	private int[] x;

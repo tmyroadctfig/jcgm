@@ -39,7 +39,7 @@ import net.sf.jcgm.core.Message;
  * to use for the CGM image, in DPI (dots per inch).
  * 
  * @author xphc (Philippe Cadé)
- * @version $Id: CGMImageReadParam.java,v 1.2 2009-03-17 14:20:24 xphc Exp $
+ * @version $Id$
  */
 public class CGMImageReadParam extends ImageReadParam {
 	/** The DPI setting to use, defaults to 96 DPI */

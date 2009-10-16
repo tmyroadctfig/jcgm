@@ -32,7 +32,7 @@ import java.util.Map;
  * Class=1, Element=13
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: FontList.java,v 1.3 2009-05-08 12:45:56 xphc Exp $
+ * @version $Id$
  */
 class FontList extends Command {
 	String fontNames[];

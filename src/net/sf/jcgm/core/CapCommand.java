@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CapCommand.java,v 1.2 2009-05-13 14:35:01 xphc Exp $
+ * @version $Id$
  */
 abstract class CapCommand extends Command {
 

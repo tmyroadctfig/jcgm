@@ -32,7 +32,7 @@ import net.sf.jcgm.core.ScalingMode.Mode;
  * The main class for Computer Graphics Metafile support.
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CGM.java,v 1.6 2009-06-30 12:29:20 xphc Exp $
+ * @version $Id$
  */
 public class CGM implements Cloneable {
     private Vector<Command> commands;

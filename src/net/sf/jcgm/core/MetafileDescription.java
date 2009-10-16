@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=2
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MetafileDescription.java,v 1.1 2009-03-17 13:07:56 xphc Exp $
+ * @version $Id$
  */
 class MetafileDescription extends Command {
     String S;

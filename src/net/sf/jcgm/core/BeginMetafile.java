@@ -28,7 +28,7 @@ import java.io.*;
  * Class=0, Element=1
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: BeginMetafile.java,v 1.1 2009-03-17 13:07:38 xphc Exp $
+ * @version $Id$
  */
 class BeginMetafile extends Command {
     String S;

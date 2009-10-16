@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=4
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: IntegerPrecision.java,v 1.1 2009-03-17 13:07:56 xphc Exp $
+ * @version $Id$
  */
 class IntegerPrecision extends Command {
     private static int precision;

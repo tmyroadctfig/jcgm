@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * Class=5, Element=6
  * @author xphc (Philippe Cadé)
- * @version $Id: MarkerType.java,v 1.1 2009-05-14 07:46:48 xphc Exp $
+ * @version $Id$
  * @since May 13, 2009
  */
 class MarkerType extends Command {

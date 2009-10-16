@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * Class=5, Element=7
  * @author xphc (Philippe Cadé)
- * @version $Id: MarkerSize.java,v 1.1 2009-05-14 07:46:48 xphc Exp $
+ * @version $Id$
  * @since May 13, 2009
  */
 class MarkerSize extends Command {

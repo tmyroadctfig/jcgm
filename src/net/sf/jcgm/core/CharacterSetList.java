@@ -30,7 +30,7 @@ import java.util.Map;
  * Class=1, Element=14
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CharacterSetList.java,v 1.2 2009-05-08 11:33:54 xphc Exp $
+ * @version $Id$
  */
 class CharacterSetList extends Command {
 	enum Type {

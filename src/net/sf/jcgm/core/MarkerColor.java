@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=8
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MarkerColor.java,v 1.1 2009-05-14 07:46:48 xphc Exp $
+ * @version $Id$
  */
 class MarkerColor extends ColorCommand {
 	public MarkerColor(int ec, int eid, int l, DataInput in)

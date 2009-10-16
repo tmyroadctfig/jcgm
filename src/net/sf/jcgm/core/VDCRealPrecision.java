@@ -28,7 +28,7 @@ import java.io.*;
  * Class=3, Element=2
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: VDCRealPrecision.java,v 1.1 2009-03-17 13:07:31 xphc Exp $
+ * @version $Id$
  */
 class VDCRealPrecision extends Command {
     enum Type {

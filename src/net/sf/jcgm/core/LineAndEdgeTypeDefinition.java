@@ -28,7 +28,7 @@ import java.io.*;
  * Class=2, Element=17
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: LineAndEdgeTypeDefinition.java,v 1.2 2009-05-13 14:35:01 xphc Exp $
+ * @version $Id$
  */
 class LineAndEdgeTypeDefinition extends Command {
     private int lineType;

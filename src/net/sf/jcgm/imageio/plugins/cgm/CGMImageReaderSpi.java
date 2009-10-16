@@ -39,7 +39,7 @@ import javax.imageio.stream.ImageInputStream;
 /**
  * Provides information about the plugin.
  * @author xphc (Philippe Cadé)
- * @version $Id: CGMImageReaderSpi.java,v 1.3 2009-07-22 15:35:02 xphc Exp $
+ * @version $Id$
  */
 public class CGMImageReaderSpi extends ImageReaderSpi {
 	static final String vendorName = "Swiss AviationSoftware Ltd.";

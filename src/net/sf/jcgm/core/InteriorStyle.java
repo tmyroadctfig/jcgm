@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=22
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: InteriorStyle.java,v 1.3 2009-06-11 09:25:16 xphc Exp $
+ * @version $Id$
  */
 class InteriorStyle extends Command {
 	enum Style {

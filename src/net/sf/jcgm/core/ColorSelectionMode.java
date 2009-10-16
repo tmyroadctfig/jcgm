@@ -27,7 +27,7 @@ import java.io.*;
  * Class=2, Element=2
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ColorSelectionMode.java,v 1.1 2009-03-17 13:07:38 xphc Exp $
+ * @version $Id$
  */
 class ColorSelectionMode extends Command {
 	enum Type { INDEXED, DIRECT }

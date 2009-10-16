@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=42
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: RestrictedTextType.java,v 1.1 2009-03-17 13:07:43 xphc Exp $
+ * @version $Id$
  */
 class RestrictedTextType extends Command {
 	enum Type {

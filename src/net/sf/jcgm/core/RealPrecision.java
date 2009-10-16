@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=5
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: RealPrecision.java,v 1.1 2009-03-17 13:07:43 xphc Exp $
+ * @version $Id$
  */
 class RealPrecision extends Command {
 	enum Precision { FLOATING_32, FLOATING_64, FIXED_32, FIXED_64 }

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=29
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EdgeColor.java,v 1.1 2009-03-17 13:07:53 xphc Exp $
+ * @version $Id$
  */
 class EdgeColor extends ColorCommand {
 	public EdgeColor(int ec, int eid, int l, DataInput in)

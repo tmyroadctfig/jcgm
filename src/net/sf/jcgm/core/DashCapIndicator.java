@@ -23,7 +23,7 @@ package net.sf.jcgm.core;
 
 /**
  * @author xphc (Philippe Cadé)
- * @version $Id: DashCapIndicator.java,v 1.1 2009-03-17 13:07:53 xphc Exp $
+ * @version $Id$
  */
 enum DashCapIndicator {
 	UNSPECIFIED,

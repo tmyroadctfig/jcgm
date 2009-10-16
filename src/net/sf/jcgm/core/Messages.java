@@ -26,7 +26,7 @@ import java.util.ArrayList;
 /**
  * Container for all messages issued during the processing of a CGM file.
  * @author xphc (Philippe Cadé)
- * @version $Id: Messages.java,v 1.2 2009-06-24 06:39:28 xphc Exp $
+ * @version $Id$
  */
 class Messages extends ArrayList<Message> {
 	static private Messages instance;

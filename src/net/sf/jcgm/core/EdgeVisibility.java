@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=30
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: EdgeVisibility.java,v 1.1 2009-03-17 13:07:33 xphc Exp $
+ * @version $Id$
  */
 class EdgeVisibility extends Command {
     boolean Visibel;

@@ -57,7 +57,7 @@ import net.sf.jcgm.core.Message;
  * >JavaTM Image I/O API Guide</a>
  * 
  * @author xphc (Philippe Cadé)
- * @version $Id: CGMImageReader.java,v 1.5 2009-07-01 08:41:47 xphc Exp $
+ * @version $Id$
  */
 class CGMImageReader extends ImageReader {
 	

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=15
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CharacterCodingAnnouncer.java,v 1.1 2009-03-17 13:07:57 xphc Exp $
+ * @version $Id$
  */
 class CharacterCodingAnnouncer extends Command {
 	enum Type {

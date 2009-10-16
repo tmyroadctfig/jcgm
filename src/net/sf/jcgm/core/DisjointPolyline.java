@@ -30,7 +30,7 @@ import java.io.*;
  * Class=4, Element=2
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: DisjointPolyline.java,v 1.5 2009-05-14 13:09:42 xphc Exp $
+ * @version $Id$
  */
 class DisjointPolyline extends Command {
 	private int[] x;

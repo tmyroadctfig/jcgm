@@ -27,7 +27,7 @@ import java.awt.BasicStroke;
  * Class=2, Element=7
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: LineCapIndicator.java,v 1.2 2009-05-13 14:35:02 xphc Exp $
+ * @version $Id$
  */
 enum LineCapIndicator {
 	UNSPECIFIED(BasicStroke.CAP_BUTT),

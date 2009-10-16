@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=9
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MaximumColourIndex.java,v 1.1 2009-03-17 13:07:30 xphc Exp $
+ * @version $Id$
  */
 class MaximumColourIndex extends Command {
     private int maxColorIndex;

@@ -29,7 +29,7 @@ import java.io.*;
  * Class=2, Element=6
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: VDCExtent.java,v 1.2 2009-05-12 12:49:26 xphc Exp $
+ * @version $Id$
  */
 class VDCExtent extends Command {
     Point2D.Double lowerLeftCorner;

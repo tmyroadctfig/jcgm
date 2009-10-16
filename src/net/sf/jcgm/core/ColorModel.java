@@ -27,7 +27,7 @@ import java.io.*;
  * Class=1, Element=19
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ColorModel.java,v 1.1 2009-03-17 13:07:54 xphc Exp $
+ * @version $Id$
  */
 class ColorModel extends Command {
 	enum Model { RGB, CIELAB, CIELUV, CMYK, RGB_RELATED }

@@ -35,7 +35,7 @@ import javax.swing.JPanel;
  * 
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: CGMPanel.java,v 1.2 2009-05-08 11:33:54 xphc Exp $
+ * @version $Id$
  */
 public class CGMPanel extends JPanel {
 	private static final long serialVersionUID = -6773054268386447080L;

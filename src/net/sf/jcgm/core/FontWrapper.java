@@ -26,7 +26,7 @@ import java.awt.Font;
 /**
  * Helper class to store a font and a flag telling if the font is using symbol encoding. 
  * @author xphc (Philippe Cadé)
- * @version $Id: FontWrapper.java,v 1.1 2009-05-08 11:33:54 xphc Exp $
+ * @version $Id$
  * @since May 8, 2009
  */
 class FontWrapper {

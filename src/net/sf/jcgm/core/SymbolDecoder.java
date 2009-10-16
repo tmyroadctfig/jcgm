@@ -55,7 +55,7 @@ package net.sf.jcgm.core;
  *  Contact &lt;unicode-inc@unicode.org&gt; with any questions or comments.
  * </pre>
  * 
- * @version $Id: SymbolDecoder.java,v 1.1 2009-05-08 11:33:54 xphc Exp $
+ * @version $Id$
  * @since May 7, 2009
  */
 class SymbolDecoder {

@@ -28,7 +28,7 @@ import java.io.*;
  * Class=5, Element=37
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: LineCap.java,v 1.2 2009-05-13 14:35:02 xphc Exp $
+ * @version $Id$
  */
 class LineCap extends CapCommand {
 	public LineCap(int ec, int eid, int l, DataInput in)

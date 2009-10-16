@@ -30,7 +30,7 @@ import net.sf.jcgm.core.ColorModel.Model;
  * Class=1, Element=10
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: ColourValueExtent.java,v 1.1 2009-03-17 13:07:34 xphc Exp $
+ * @version $Id$
  */
 class ColourValueExtent extends Command {
     static private int[] minimumColorValueRGB;

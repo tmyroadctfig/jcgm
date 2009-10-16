@@ -28,7 +28,7 @@ import java.io.*;
  * Class=1, Element=11
  * @author xphc (Philippe Cadé)
  * @author BBNT Solutions
- * @version $Id: MetafileElementList.java,v 1.1 2009-03-17 13:07:57 xphc Exp $
+ * @version $Id$
  */
 class MetafileElementList extends Command {
 	String[] metaFileElements; 
