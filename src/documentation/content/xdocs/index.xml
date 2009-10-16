@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN"
+"http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+  <header>
+    <title>jcgm -- Computer Graphics Metafile interpreter and
+    renderer</title>
+  </header>
+  <body>
+    <section id="intro">
+      <title>Introduction</title>
+      <p>jcgm is an open source Java implementation to interpret
+      and render Computer Graphics Metafile (CGM) graphics
+      files.</p>
+    </section>
+  </body>
+</document>
