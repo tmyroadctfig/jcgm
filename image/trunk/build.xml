@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Main Build file for the jcgm project
+     
+     $Id: $
+-->
+<project name="jcgm" default="jar">
+	
+	<!-- The image package -->
+	<property name="version-image" value="0.1.0"/>
+	<property name="package-name-image" value="jcgm-image-${version-image}"/>
+	<property name="jar-name-image" value="${package-name-image}.jar"/>
+	<property name="package-name-image-bin" value="${package-name-image}-bin"/>
+
+	<!-- The dependent core package -->
+	<property name="jcgm-core" value="jcgm-core-0.1.0.jar"/>
+
+	<!-- Source code only distributed in one package -->
+	<property name="package-name-src" value="jcgm-src"/>
+	
+    <description>
+    	Main Build file for the jcgm project
+    </description>
+
+	<!-- Building -->
+	<target name="jar" depends="jar-image"/>
+
+    <target name="jar-image" depends="compile">
+		<jar destfile="build/${jar-name-image}" basedir="build/classes"
+			includes="net/sf/jcgm/image/**, net/sf/jcgm/imageio/**">
+			<service type="javax.imageio.spi.ImageReaderSpi">
+				<provider classname="net.sf.jcgm.imageio.plugins.cgm.CGMImageReaderSpi"/>
+			</service>
+		</jar>
+    </target>
+	
+	<target name="compile" depends="core" description="Compiles all java source files">
+		<mkdir dir="build/classes"/>
+		<javac srcdir="src" destdir="build/classes" 
+			classpath="lib/${jcgm-core}:lib/commons-logging-1.1.jar:lib/xmlgraphics-commons-1.3.1.jar"/>
+	</target>
+
+	<target name="core">
+		<copy file="../../core/trunk/build/${jcgm-core}" tofile="lib/${jcgm-core}"/>
+	</target>
+
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+
+	<!-- Distribution -->
+	<target name="dist" depends="dist-image-bin"/>
+
+	<target name="dist-image-bin" depends="jar-image"> <!-- depends: site -->
+    	<zip destfile="${package-name-image-bin}.zip">
+			<!-- <zipfileset dir="build/site" prefix="${package-name-image-bin}/build/site"/> -->
+			<zipfileset file="build/${jar-name-image}" prefix="${package-name-image-bin}/build"/>
+			<zipfileset file="LICENSE.txt" prefix="${package-name-image-bin}"/>
+			<zipfileset file="README.txt" prefix="${package-name-image-bin}"/>
+		</zip>
+	</target>
+	
+	<target name="distclean" depends="clean">
+		<delete file="${package-name-src}.zip"/>
+		<delete file="${package-name-image-bin}.zip"/>
+	</target>
+
+	<!-- Web site -->
+	<!-- FORREST_HOME must be set as an environment variable -->
+	<property environment="env"/>
+	<property name="forrest.home" value="${env.FORREST_HOME}"/>
+	<!-- This will import a "site" task -->
+	<import file="${env.FORREST_HOME}/main/forrest.build.xml"/>
+
+</project>
