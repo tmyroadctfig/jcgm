@@ -13,7 +13,7 @@
 	<property name="package-name-image-bin" value="${package-name-image}-bin"/>
 
 	<!-- The dependent core package -->
-	<property name="jcgm-core" value="jcgm-core-0.1.0.jar"/>
+	<property name="jcgm-core" value="jcgm-core-0.1.1.jar"/>
 
 	<!-- Source code only distributed in one package -->
 	<property name="package-name-src" value="jcgm-src"/>
@@ -28,20 +28,23 @@
     <target name="jar-image" depends="compile">
 		<jar destfile="build/${jar-name-image}" basedir="build/classes"
 			includes="net/sf/jcgm/image/**, net/sf/jcgm/imageio/**">
-			<service type="javax.imageio.spi.ImageReaderSpi">
-				<provider classname="net.sf.jcgm.imageio.plugins.cgm.CGMImageReaderSpi"/>
-			</service>
+			<service type="javax.imageio.spi.ImageReaderSpi" 
+				provider="net.sf.jcgm.imageio.plugins.cgm.CGMImageReaderSpi"/>
+			<service type="org.apache.xmlgraphics.image.loader.spi.ImagePreloader" 
+				provider="net.sf.jcgm.image.loader.cgm.PreloaderCGM"/>
+			<service type="org.apache.xmlgraphics.image.loader.spi.ImageLoaderFactory"
+				provider="net.sf.jcgm.image.loader.cgm.ImageLoaderFactoryCGM"/>
 		</jar>
     </target>
 	
 	<target name="compile" depends="core" description="Compiles all java source files">
 		<mkdir dir="build/classes"/>
-		<javac srcdir="src" destdir="build/classes" 
+		<javac srcdir="src" destdir="build/classes" debug="true"
 			classpath="lib/${jcgm-core}:lib/commons-logging-1.1.jar:lib/xmlgraphics-commons-1.3.1.jar"/>
 	</target>
 
 	<target name="core">
-		<copy file="../../core/trunk/build/${jcgm-core}" tofile="lib/${jcgm-core}"/>
+		<copy file="../jcgm-core/build/${jcgm-core}" tofile="lib/${jcgm-core}"/>
 	</target>
 
 	<target name="clean">

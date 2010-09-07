@@ -100,8 +100,7 @@ public class CGMImageReaderSpi extends ImageReaderSpi {
 			return false;
 		}
 		
-		return (b[0] == 0x00 && b[1] == 0x3F) ||
-			(b[0] == 0x00 && b[1] == 0x29);
+		return b[0] == 0x00 && (b[1] & 0xE0) == 0x20;
 	}
 
 	@Override
