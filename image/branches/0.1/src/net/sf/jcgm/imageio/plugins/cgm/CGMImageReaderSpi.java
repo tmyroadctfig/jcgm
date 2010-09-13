@@ -101,7 +101,7 @@ public class CGMImageReaderSpi extends ImageReaderSpi {
 		}
 		
 		// BEGIN METAFILE
-		return b[0] == 0x00 && b[1] == 0x3F;
+		return b[0] == 0x00 && (b[1] & 0xE0) == 0x20;
 	}
 
 	@Override
