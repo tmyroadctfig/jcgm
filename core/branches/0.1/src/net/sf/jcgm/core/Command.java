@@ -456,8 +456,19 @@ class Command implements Cloneable {
 
 	private int makeUInt16() {
     	skipBits();
-		assert this.currentArg+1 < this.args.length;
-		return (char)(this.args[this.currentArg++] << 8) + (char)this.args[this.currentArg++];
+    	
+		if (this.currentArg+1 < this.args.length) {
+			// this is the default, two bytes
+			return (char)(this.args[this.currentArg++] << 8) + (char)this.args[this.currentArg++];
+		}
+		
+		// some CGM files request a 16 bit precision integer when there are only 8 bits left
+		if (this.currentArg < this.args.length) {
+			return (char)this.args[this.currentArg++];
+		}
+		
+		assert false;
+		return 0;
 	}
 
 	private int makeUInt8() {
