@@ -145,11 +145,6 @@ class CGMImageReader extends ImageReader {
 	public BufferedImage read(int imageIndex, ImageReadParam param) throws IOException {
 		checkIndex(imageIndex);
 		
-		if (!(param instanceof CGMImageReadParam))
-			throw new IllegalArgumentException("unexpected ImageReadParam type. Must be CGMImageReadParam");
-		
-		CGMImageReadParam cgmParam = (CGMImageReadParam)param;
-
 		if (this.cgm == null) {
 			ImageInputStream stream = (ImageInputStream)this.input;
 			this.cgm = new CGM();
@@ -158,15 +153,30 @@ class CGMImageReader extends ImageReader {
 		}
 
 		// publish the error messages that happened during the load
-		cgmParam.setMessages(this.cgm.getMessages());
+		if (param instanceof CGMImageReadParam) {
+			CGMImageReadParam cgmParam = (CGMImageReadParam)param;
+			cgmParam.setMessages(this.cgm.getMessages());
+		}
 		for (Message m: this.cgm.getMessages()) {
 			processWarningOccurred(m.toString());
 		}
-		
-		this.size = this.cgm.getSize(cgmParam.getDPI());
+
+		this.size = param.canSetSourceRenderSize() ? param.getSourceRenderSize() : null;
 		if (this.size == null) {
-			// the CGM doesn't know its size, use a default
-			this.size = new Dimension(600, 400);
+			double dpi;
+			if (param instanceof CGMImageReadParam) {
+				dpi = ((CGMImageReadParam)param).getDPI();
+			}
+			else {
+				// use default setting for CGM
+				dpi = new CGMImageReadParam().getDPI();
+			}
+
+			this.size = this.cgm.getSize(dpi);
+			if (this.size == null) {
+				// the CGM doesn't know its size, use a default
+				this.size = new Dimension(600, 400);
+			}
 		}
 		
 		BufferedImage destination = getDestination(param, getImageTypes(0), this.size.width, this.size.height);

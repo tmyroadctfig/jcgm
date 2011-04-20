@@ -63,6 +63,11 @@ public class CGMImageReadParam extends ImageReadParam {
 		this.dpi = dpi;
 	}
 
+	@Override
+	public boolean canSetSourceRenderSize() {
+		return true;
+	}
+
 	/**
 	 * Defines the dot per inch setting to use when reading the CGM file
 	 * 
