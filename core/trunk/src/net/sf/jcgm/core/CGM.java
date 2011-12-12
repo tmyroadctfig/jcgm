@@ -21,27 +21,18 @@
  */
 package net.sf.jcgm.core;
 
-import java.awt.Dimension;
+import net.sf.jcgm.core.ScalingMode.Mode;
+
+import java.awt.*;
 import java.awt.geom.Point2D;
-import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.DataInput;
-import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.io.RandomAccessFile;
+import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.zip.GZIPInputStream;
-
-import net.sf.jcgm.core.ScalingMode.Mode;
 
 /**
  * The main class for Computer Graphics Metafile support.
@@ -86,7 +77,7 @@ public class CGM implements Cloneable {
                 break;
 
             for (ICommandListener listener : this.commandListeners) {
-				listener.commandProcessed(c.getElementClass(), c.getElementCode(), c.toString());
+				listener.commandProcessed(c, c.getElementClass(), c.getElementCode(), c.toString());
 			}
 
             // get rid of all arguments after we read them
@@ -400,6 +391,10 @@ public class CGM implements Cloneable {
             stream.println("Command: " + c);
 		}
 	}
+
+    public List<Command> getCommands() {
+        return Collections.unmodifiableList(commands);
+    }
 
 }
 

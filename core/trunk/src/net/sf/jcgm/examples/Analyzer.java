@@ -36,10 +36,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.zip.GZIPInputStream;
 
-import net.sf.jcgm.core.CGM;
-import net.sf.jcgm.core.ElementClass;
-import net.sf.jcgm.core.ICommandListener;
-import net.sf.jcgm.core.Message;
+import net.sf.jcgm.core.*;
 
 /**
  * An analyzer that output statistics on the commands that are used in a set of
@@ -301,7 +298,7 @@ public class Analyzer implements ICommandListener {
 	}
 
 	@Override
-	public void commandProcessed(int elementClass, int elementId, String commandText) {
+	public void commandProcessed(Command command, int elementClass, int elementId, String commandText) {
 		CommandHelper helper = new CommandHelper(elementClass, elementId);
 		Integer count = commands.get(helper);
 		if (count == null) {
