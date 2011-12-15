@@ -30,9 +30,6 @@ public interface ICommandListener {
 	/**
 	 * Will be called when a command has been read.
 	 * @param command the command.
-     * @param elementClass The class of the element
-	 * @param elementId The element code
-	 * @param commandText A descriptive text for the command
 	 */
-	public void commandProcessed(Command command, int elementClass, int elementId, String commandText);
+	public void commandProcessed(Command command);
 }
